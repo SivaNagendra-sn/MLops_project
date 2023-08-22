@@ -41,5 +41,5 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    # app.config['DEBUG'] = True # Not required for EBS deployment
+    # app.config['DEBUG'] = True # Not required for EBS deployment # .ebextensions/python.config
     app.run(host="0.0.0.0")       
